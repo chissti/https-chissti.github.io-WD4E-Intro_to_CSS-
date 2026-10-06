@@ -1,4 +1,36 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-size: 18pt;
+}
+
+header {
+    background-color: burlywood;
+}
+
+nav {
+    background-color: aliceblue;
+}
+
+main {
+    background-color: azure;
+    font-size: 20pt;
+}
+
+footer {
+    background-color: antiquewhite;
+}
+
+li {
+    display: block;
+    width: 250px;
+}
+
+h1 {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+p {
+    line-height: normal;
 }
