@@ -9,6 +9,23 @@ header {
 
 nav {
     background-color: aliceblue;
+    display: inline-block;
+    width: 80%;
+}
+
+nav img{
+    width: 10
+}
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center; 
+    align-items: center;
+    row-gap: 15px;
+}
+
+.grid img {
+    width: 100%;
 }
 
 main {
@@ -33,4 +50,10 @@ h1 {
 
 p {
     line-height: normal;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

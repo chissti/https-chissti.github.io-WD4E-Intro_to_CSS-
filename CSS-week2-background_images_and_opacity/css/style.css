@@ -4,8 +4,12 @@ html {
   
 }
 footer{
-  background-image: url("../images/huron_river.JPG");   /* Make sure your file extension is correct!  It should be .png*/
-  height: 200px; /* You must set a specified height */
+  background-image: url("../images/huron_river.png");   /* Make sure your file extension is correct!  It should be .png*/
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* You must set a specified height */
   
   /* Center the image */
   /* background-position: center;  */
@@ -16,7 +20,7 @@ footer{
   /* Resize the background image to cover the entire container */
   /* background-size: cover; */
   
-  opacity: .5;
+  opacity: 0.5;
   
 }
 p{
